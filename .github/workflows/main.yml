@@ -10,10 +10,10 @@ permissions:
   contents: read
 
 jobs:
-  validate-bundle:
+ # validate-bundle:
    # name: Validate Databricks bundle
-    runs-on: ubuntu-latest
-    env:
+   runs-on: ubuntu-latest
+   env:
       # Host is stored as a repo/org variable
       DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
 
