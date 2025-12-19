@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   validate-bundle:
-    name: Validate Databricks bundle
+    #name: Validate Databricks bundle
     runs-on: ubuntu-latest
     env:
       # Host is stored as a repo/org variable
