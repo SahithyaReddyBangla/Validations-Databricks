@@ -3,7 +3,7 @@ name: PR Validate to dev
 
 on:
   pull_request:
-    branches: [ dev ]           # validates PRs targeting dev
+    branches: [ feature/create_db_notebook ]           # validates PRs targeting dev
 
 permissions:
   id-token: write               # needed if you use OIDC
